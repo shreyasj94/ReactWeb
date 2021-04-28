@@ -1,0 +1,32 @@
+.media-div {
+    margin: 8px;
+
+}
+
+.media-img{
+    object-fit: contain;
+    height: 200px;
+    border-radius: 8px;
+    background-color: rgba(254, 254, 254, 0.85);
+    margin-bottom: 8px;
+}
+
+.media-thumb{
+    position: relative;
+    display: inline-block;
+}
+
+.play-btn{
+    position: absolute;
+    z-index: 999;
+    margin: auto;
+    top: 50%;
+    left: calc(50% - 16px);
+    color: white !important;
+}
+
+.media-op{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
